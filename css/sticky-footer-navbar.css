@@ -1,0 +1,177 @@
+body > .container {
+    padding-top: 100px;
+}
+
+body {
+    background-color: #ecf0f1;
+}
+
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+    /* Margin bottom by footer height */
+    
+    margin-bottom: 60px;
+}
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    /* Set the fixed height of the footer here */
+    
+    height: 60px;
+    background-color: #1f243d;
+}
+
+
+
+.jumbo {
+    background: #000 url("../img/1.jpg") no-repeat center center;
+    background-size: 100% 100%;
+    -moz-background-size: 100% 100%;
+    -webkit-background-size: 100% 100%;
+    -o-background-size: 100% 100%;
+    min-height: 700px;
+    padding-top: 100px;
+    padding-left: 20px;
+    padding-right: 20px;
+    
+    
+    background-size: cover;
+    overflow: hidden;
+
+}
+
+.jumbosm {
+    background: #000 url("../img/1sm.png") no-repeat center center;
+    background-size: 100% 100%;
+    -moz-background-size: 100% 100%;
+    -webkit-background-size: 100% 100%;
+    -o-background-size: 100% 100%;
+    min-height: 700px;
+    padding-top: 100px;
+    padding-left: 20px;
+    padding-right: 20px;
+    
+    
+    background-size: cover;
+    overflow: hidden;
+
+}
+
+
+.blue {
+    background-color: #0099cc;
+    color: white;
+    text-align: center;
+    margin: 20px;
+    padding: 20px;
+}
+
+
+.white {
+    background-color: rgba(255, 255, 255, 0.7);
+    color: black;
+    text-align: center;
+    margin: 20px;
+    padding: 20px;
+}
+
+.shortcuts {
+    text-align: center;
+}
+
+.card1 {
+    margin: 1px;
+    margin-bottom: 10px;
+    border-style: solid;
+    border-width: 0px;
+    background: #3498db;
+    background: #4fc4f7;
+    background: #fcb150;
+    background: #e64c65;
+    background: #12a8ab;
+    background: #384264;
+
+    color: white;
+    padding: 10px;
+}
+
+
+.card2 {
+    margin: 1px;
+    margin-bottom: 10px;
+    border-style: solid;
+    border-width: 0px;
+    background: #3498db;
+    background: #4fc4f7;
+    background: #fcb150;
+    background: #e64c65;
+    background: #12a8ab;
+
+
+    color: white;
+    padding: 10px;
+}
+
+.card3 {
+    margin: 1px;
+    margin-bottom: 10px;
+    border-style: solid;
+    border-width: 0px;
+    background: #e64c65;
+
+
+    color: white;
+    padding: 10px;
+}
+
+/*Navigation */
+
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+    color: #bdc3c7;
+    /*Sets the text hover color on navbar*/
+}
+
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+    color: white;
+    /*BACKGROUND color for active*/
+    
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+.navbar-default {
+    background-color: rgba(255, 255, 255, 1);
+    border-color: rgba(255, 255, 255, 0);
+}
+
+.dropdown-menu > li > a:hover,
+.dropdown-menu > li > a:focus {
+    color: #262626;
+    text-decoration: none;
+    background-color: #66CCFF;
+    /*change color of links in drop down here*/
+}
+
+.nav > li > a:hover,
+.nav > li > a:focus {
+    text-decoration: none;
+    background-color: silver;
+    /*Change rollover cell color here*/
+}
+
+.navbar-default .navbar-nav > li > a {
+    color: #34495e;
+    /*Change active text color here*/
+}
+
+.navbar {
+    min-height: 80px; //* or whatever height you require
+}
